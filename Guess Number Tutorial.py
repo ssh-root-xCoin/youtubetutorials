@@ -1,6 +1,6 @@
 import random
 print('I am thinking of a random number between 1 and 100! Can you guess it?')
-number = random.randint(0, 101)
+number = random.randint(1, 101)
 guessnumber = input("Enter guessed number by you: ")
 attempts = 1
 running = True
